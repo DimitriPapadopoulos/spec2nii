@@ -1,0 +1,9 @@
+version = 1
+
+exclude_patterns = ["versioneer.py", "spec2nii/_version.py", "spec2nii/varian.py", "spec2nii/GE/ge_read_pfile.py"]
+
+test_patterns = ["tests/test_*.py"]
+
+[[analyzers]]
+name = "python"
+enabled = true
